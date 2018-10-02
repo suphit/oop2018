@@ -50,6 +50,7 @@ public class Week3 {
     }
     public static void main(String[] args) {
         // TODO code application logic here
+        
         Double nang,cao;
         Scanner scan= new Scanner(System.in);
         System.out.print("Please enter your weight >>> ");
