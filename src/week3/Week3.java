@@ -51,6 +51,31 @@ public class Week3 {
     public static void main(String[] args) {
         // TODO code application logic here
 
+        //max
+        /*int m,n;
+        Scanner scan= new Scanner(System.in);
+        System.out.print("Please enter the first number >>> ");
+        m=scan.nextInt();
+        System.out.print("Please enter the first number >>> ");
+        n=scan.nextInt();
+        System.out.print("giá trị lớn nhất là ");
+        System.out.print(max(m,n));*/
+
+
+
+        //minOfArray
+        /*int[] array;
+        Scanner scan= new Scanner(System.in);
+        array=new int[100];
+        for (int i=0; i<100; i++){
+            System.out.print("Array "+(i+1)+" : ");
+            array[i]=scan.nextInt();
+        }
+        System.out.println("giá trị nhỏ nhất trong mảng là = " + minOfArray(array));
+        */
+
+
+        //BMI
         Double nang,cao;
         Scanner scan= new Scanner(System.in);
         System.out.print("Please enter your weight >>> ");
@@ -58,5 +83,6 @@ public class Week3 {
         System.out.print("Please enter your height >>> ");
         cao= scan.nextDouble();
         System.out.print(calculateBMI(nang,cao));
+        
     }
 }
