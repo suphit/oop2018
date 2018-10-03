@@ -50,7 +50,6 @@ public class Week3 {
     }
     public static void main(String[] args) {
         // TODO code application logic here
-
         //max
         /*int m,n;
         Scanner scan= new Scanner(System.in);
