@@ -75,7 +75,7 @@ public class Week3 {
         */
 
 
-        //BMI
+        //calculateBMI
         float nang,cao;
         Scanner scan= new Scanner(System.in);
         System.out.print("Please enter your weight >>> ");
