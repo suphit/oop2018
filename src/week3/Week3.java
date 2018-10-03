@@ -73,7 +73,6 @@ public class Week3 {
         System.out.println("giá trị nhỏ nhất trong mảng là = " + minOfArray(array));
         */
 
-
         //calculateBMI
         float nang,cao;
         Scanner scan= new Scanner(System.in);
