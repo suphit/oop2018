@@ -3,7 +3,7 @@ package week3;
 import java.util.Scanner;
 public class Week3 {
 
-    public static int max(int m, int n) {
+    private static int max(int m, int n) {
         // TODO: Tìm giá trị lớn nhất của hai số nguyên, giá trị trả về của hàm là số lớn nhất
         if(m>=n)
             return m;
@@ -12,7 +12,7 @@ public class Week3 {
 
     }
 
-    public static int minOfArray(int[] array) {
+    private static int minOfArray(int[] array) {
         // TODO: Tìm giá trị nhỏ nhất của của một mảng số nguyên (kích thước mảng <= 100 phần tử)
         int min=array[0];
         for(int i=1;i<array.length;i++){
@@ -76,13 +76,13 @@ public class Week3 {
 
 
         //BMI
-        Double nang,cao;
+        float nang,cao;
         Scanner scan= new Scanner(System.in);
         System.out.print("Please enter your weight >>> ");
-        nang= scan.nextDouble();
+        nang= scan.nextFloat();
         System.out.print("Please enter your height >>> ");
-        cao= scan.nextDouble();
+        cao= scan.nextFloat();
         System.out.print(calculateBMI(nang,cao));
-        
+
     }
 }
