@@ -1,8 +1,6 @@
 package week11;
-
 import java.util.ArrayList;
 import java.util.Random;
-
 public class Task2 {
     public static <T extends Comparable> T max(ArrayList<T> a) {
         T max = a.get(0);
@@ -13,7 +11,6 @@ public class Task2 {
         }
         return max;
     }
-
     public static void main(String[] args) {
         ArrayList<Character> a = new ArrayList<Character>();
         a.add(0, 'a');
@@ -64,7 +61,5 @@ public class Task2 {
         g.add(3, 34.34567d);
         g.add(4, 25.0056791d);
         System.out.println(max(g) + "\n");
-
-
     }
 }
