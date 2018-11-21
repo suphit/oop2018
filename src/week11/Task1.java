@@ -23,13 +23,13 @@ public class Task1 {
         System.out.println("\n\n");
     }
     public static void main(String [] args){
-        Character [] a = {'d','f','g','h','o','p','q'};
-        Integer [] b = {1,-3,6,8,88,-30,0,30};
-        Byte [] c = {-128, 100,-90,90,50,-40,127};
-        Short [] d = {-32768, 20 ,100,1000, -200, 32767};
-        Long [] e = {2L,-3L,0L,6L,4L,1L};
-        Float [] f ={1.2F,2.6F,-9.8F,3F,4.09F,10.78888F,8.9F};
-        Double [] g = {1.1d,3.144d,4.5d,-1.6d,-10.98877d,2.5d};
+        Character [] a = {'o','a','l','j','x','w','z'};
+        Integer [] b = {6,100,30,90,-5,14,8,11};
+        Byte [] c = {-111, 99,6,16,10,-90,10};
+        Short [] d = {-517, 450 ,130,900, -560, 500};
+        Long [] e = {6L,8L,7L,3L,-9L,0L};
+        Float [] f ={0.2F,7.4F,1.8F,3.6F,1.28F,101.566F,5.5555F};
+        Double [] g = {2.3d,3.2d,-9.888d,8.99d,6.6d,7.7d};
         xapxep(a);
         print(a);
         xapxep(b);
